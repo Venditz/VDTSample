@@ -68,7 +68,7 @@ public class MainActivity extends PermissionCheckerActivity {
         });
         // Load the url
         if (mWebView.getUrl() == null) {
-            mWebView.loadUrl("http://cs.zooma.kr");
+            mWebView.loadUrl("url");
         }
 
     }
